@@ -10,10 +10,10 @@ function toggleMode() {
   */
   const img = document.querySelector("#profile img")
    if (html.classList.contains("light")) {
-    img.setAttribute("src", "./assets/avatar-light.png")
-    img.setAttribute("alt", "Foto de Mayk Brito sorrindo usando óculos escuros e camisa preta com fundo azul.")
+    img.setAttribute("src", "./assets/avatar-barbara-light.jpg")
+    img.setAttribute("alt", "Foto de Bárbara Fonseca sorrindo com blusa verde.")
    } else {
-    img.setAttribute("src", "./assets/avatar.png")
-    img.setAttribute("alt", "Foto de Mayk Brito sorrindo usando óculos de grau e camisa preta com fundo azul.")
+    img.setAttribute("src", "./assets/avatar-barbara.jpg")
+    img.setAttribute("alt", "Foto de Bárbara Fonseca sorrindo com blusa preta.")
    }
 }
